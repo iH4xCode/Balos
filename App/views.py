@@ -6,3 +6,10 @@ class HomepageView(TemplateView):
 
 class AboutpageView(TemplateView):
       template_name = 'about.html'
+
+class ContactpageView(TemplateView):
+      template_name = 'contact.html'
+
+
+class ServicespageView(TemplateView):
+      template_name = 'services.html'
